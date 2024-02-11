@@ -1,0 +1,33 @@
+{
+  "name": "js-hw-08-ra",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://mrquinlan.github.io/js-hw-08-ra",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /js-hw-08-ra/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mrquinlan.github.io/js-hw-08-ra.git"
+  },
+  "keywords": [],
+  "author": "Ivan Kiiashko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://mrquinlan.github.io/js-hw-08-ra/issues"
+  },
+  "dependencies": {
+    "@vimeo/player": "^2.21.0",
+    "lodash.throttle": "^4.1.1",
+    "modern-normalize": "^1.1.0",
+    "simplelightbox": "^2.14.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
